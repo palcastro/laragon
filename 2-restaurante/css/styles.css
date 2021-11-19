@@ -1,0 +1,111 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
+/*DATOS GENERALES*/
+*{background-color: rgb(226, 226, 226);
+}
+body{
+    font-family: sans-serif;
+}
+/*HEADER*/
+.cabecera{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+}
+.bloque1{
+    flex:1;
+    margin-top: 100px;
+}
+
+li{
+    display: inline-block;
+    padding: 2px;
+}
+li:hover{
+    color:sienna;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*MAIN*/
+main{
+    margin-top: 2px;
+    
+}
+/*Sección de imágenes de menú y vídeo*/
+.Título{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 400px;
+}
+.menu{
+    padding: 200px;
+}
+
+.bloque3{
+    display: inline-block;
+}
+
+/*Sección Info */
+.bloque4{
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    border:rgb(128, 128, 128);
+    box-shadow:0 0 20px rgb(182, 182, 182);
+    margin-left: 15%;
+    margin-top: 70px;
+}
+h3{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(182, 182, 182); 
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+background-color: rgb(182, 182, 182);
+text-align: justify
+} 
+  .box1{
+    background-color:rgb(182, 182, 182);
+    padding: 20px;
+    display: inline-block;   }
+
+    /*HORARIOS*/
+.horarios{
+    display: inline-block;
+    
+}
+.bloque5{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+th{
+    padding: 20px;
+    
+}
+
+#header{
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+    /*FOOTER*/
+    footer{
+        background-color:rgb(173, 173, 173);
+       padding: 20px;
+       margin-top: 20px;
+    }
+    .foot{
+        background-color: rgb(173, 173, 173);
+        padding: 20px;
+        margin-left: 60%;
+    }
+
+ 
+      
