@@ -1,0 +1,48 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* GRID */
+*{
+    padding:0;
+    margin:0;
+}
+.container {
+  display: grid;
+  /* define elemento como contenedor de grid */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /*Para meter tantos elementos en una columna como sea posible */
+  grid-gap: 1em;
+  /* Espacio entre los artículos */
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    color:rgba(174, 87, 182, 0.548);
+}
+h1{
+    padding-left: 35%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 4px rgb(54, 54, 54);
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+
+}
+.banner{
+    background: url(../img/portada.jpg)  center no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.grid{
+   padding:6%
+}
+.grid:nth-child(3){
+    grid-column:span 2;
+}
