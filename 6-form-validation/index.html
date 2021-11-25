@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form validation: Task 1</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="box">
+        <h2>INTRODUZCA SUS DATOS</h2>
+        <label for="user">Usuario:</label>
+        <input type="text" name="user" id="user" required  minlength="10"/>
+        <br> 
+        <input type="radio" id="css" name="gender" value="Mujer">
+        <label for="css">Mujer</label>
+        <input type="radio" id="html" name="gender" value="Hombre">
+        <label for="html">Hombre</label>
+        <input type="radio" id="css" name="gender" value="Otre">
+        <label for="css">Otre</label><br>   
+        <label for="birthday">Fecha de nacimiento:</label>
+        <input type="date" id="birthday" name="birthday" required>
+        <br>
+        <label for="email">Dirección E-mail:</label>
+        <input type="text" name="email" id="email" required/>
+        <br>
+        <label for="phone">Número de teléfono:</label>
+        <input type="text" name="phone" id="phone" required maxlength="15" />
+        <br>
+        <label for="adress">Dirección:</label>
+        <input type="text" id="adress" required> </input>
+        <br>
+        <label for="cp">C.P.:</label>
+        <input type="text" id="cp"required> </input>
+        <br>
+        <label for="place">Población</label>
+        <input type="text" id="place" required> </input>
+        <br>
+        <label for="comment">Comentarios:</label><br>
+        <textarea name="comment" id="comment" required maxlength="200"> </textarea><br>
+         <button class="btn">Enviar datos</button>
+      </form>
+    </div>
+  </body>
+</html>
